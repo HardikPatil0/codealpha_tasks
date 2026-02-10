@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+body {
+  font-family: Inter, system-ui, sans-serif;
+  background: #f3f4f6;
+}
+
+/* Buttons */
+.btn {
+  @apply px-4 py-2 rounded-lg font-medium transition shadow-sm cursor-pointer;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white hover:bg-blue-700;
+}
+
+.btn-success {
+  @apply bg-green-600 text-white hover:bg-green-700;
+}
+
+.btn-warning {
+  @apply bg-yellow-500 text-white hover:bg-yellow-600;
+}
+
+.btn-gray {
+  @apply bg-gray-300 hover:bg-gray-400;
+}
+
+/* Inputs */
+.input {
+  @apply w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-blue-500 outline-none;
+}
